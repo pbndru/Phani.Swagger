@@ -8,6 +8,10 @@ namespace Phani.Swagger.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        /// <summary>
+        /// Gets the list of all Employees.
+        /// </summary>
+        /// <returns>The list of all Employees.</returns>
         // GET: api/Employee
         [HttpGet]
         public ActionResult<IEnumerable<Employee>> Get()
